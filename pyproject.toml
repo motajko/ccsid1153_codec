@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccsid1153_codec"
+version = "1.0.0"
+authors = [
+    { name = "Milan Otajovič", email = "motajovic@datalast.eu" }
+]
+description = "Pure Python codec for IBM EBCDIC Code Page 1153 (CCSID 1153) to UTF-8"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Filters"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
