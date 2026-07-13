@@ -2,12 +2,6 @@
 
 A pure Python package providing native support for the IBM-1153 EBCDIC (Latin-2) code page layout.
 
-## Installation
-
-```bash
-pip install .
-```
-
 ## Usage
 
 ```python

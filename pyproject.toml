@@ -4,19 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ccsid1153_codec"
-version = "1.0.0"
+version = "0.0.2"
 authors = [
     { name = "Milan Otajovič", email = "motajovic@datalast.eu" }
 ]
 description = "Pure Python codec for IBM EBCDIC Code Page 1153 (CCSID 1153) to UTF-8"
 readme = "README.md"
+license = "MPL-2.0"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Text Processing :: Filters"
 ]
+[project.urls]
+Repository = "https://github.com/motajko/ccsid1153_codec.git"
 
 [tool.setuptools.packages.find]
 where = ["src"]
